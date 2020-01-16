@@ -1,5 +1,4 @@
-# polynomial-legression
-Polynomial Regression
+# polynomial-regression
 
 A regression model to predict the house rental price based on certain features like size, floor, number of bed rooms etc. 
 
