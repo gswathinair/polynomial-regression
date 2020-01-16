@@ -23,8 +23,10 @@ print(trainX.shape, testX.shape, trainY.shape, testY.shape)
 
 model = []
 
-# We consider upto a 5 degrees of polynomial equation.
-for deg in range(1, 5):
+# We consider upto 5 degrees of polynomial equation.
+DEGREE_OF_EQUATION = 5
+
+for deg in range(1, DEGREE_OF_EQUATION):
     """
     PolynomialFeatures():
     Generate a new feature matrix consisting of all polynomial combinations of the features 
