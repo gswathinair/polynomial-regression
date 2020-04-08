@@ -2,7 +2,7 @@
 
 A regression model to predict the house rental price based on certain features like size, floor, number of bed rooms etc. 
 
-It generates polynimial regression models upto the degree specified. 
+It generates polynomial regression models upto the degree specified. 
 
 Uses sklearn - PolynomialFeatures for generating polynomial features.
 
